@@ -1,0 +1,6 @@
+framework module TouchableSlider {
+  umbrella header "TouchableSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TouchableSlider_Example' do
+  pod 'TouchableSlider', :path => '../'
+
+  target 'TouchableSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

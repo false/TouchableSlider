@@ -1,0 +1,16 @@
+PODS:
+  - TouchableSlider (1.0.0)
+
+DEPENDENCIES:
+  - TouchableSlider (from `../`)
+
+EXTERNAL SOURCES:
+  TouchableSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TouchableSlider: dfc9dae7aed036730613372fdc56704fb3417ba0
+
+PODFILE CHECKSUM: 9209f1d33f0be242b87035a4fa4f6505d243c901
+
+COCOAPODS: 1.2.0

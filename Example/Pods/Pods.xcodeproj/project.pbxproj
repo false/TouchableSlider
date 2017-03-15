@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029AA66F3E3B648CCAD52EE237047BB1 /* TouchableSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D34B0199B200CD8A9822C65BD44F883D /* TouchableSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17BF95ECAF7B64F2FA98099532842892 /* TouchableSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3583CB2E045FEBE3B68023259868F46C /* TouchableSlider.m */; };
+		1801CE14C48B18CAE83828659C4F3528 /* TouchableSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F022A5A4CEDEC99DB458B2237E9854C0 /* TouchableSlider-dummy.m */; };
+		23CBD5A5C76B6CF3947EA43662A404E5 /* Pods-TouchableSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A49A1906B7936207E7AEC79C0C73973A /* Pods-TouchableSlider_Example-dummy.m */; };
+		274F2F9F61194E67D4DC04F46E4548A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		68E202692CA4A9E50FEE597066B3A805 /* Pods-TouchableSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76116FC95B43A2BC69424EBC9A2AC363 /* Pods-TouchableSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7FEE048F8E57F40C6E0763693E4479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		83637919D6C7F6936287A1013D32239D /* TouchableSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 581939D2CD7C18AD106CACB71960502A /* TouchableSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0087E911AFFB65F8F14FDD257C82361 /* Pods-TouchableSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F59A5E73786CB72AB7F3D1789F82718 /* Pods-TouchableSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D190FD8D1A57445369623ED91B8EFE79 /* Pods-TouchableSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F0F4692B82BEB7AFA3654511B8475 /* Pods-TouchableSlider_Tests-dummy.m */; };
+		F66C2AF0D8105547945C9414F49B0B67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86D2627E4A433A71D6A1B096BAEB5DE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DD8573A23C5CD131FF9513FBCC64FB;
+			remoteInfo = TouchableSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B1E7463A5DCEA1F9F53A598AF060D3 /* TouchableSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TouchableSlider.framework; path = TouchableSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D5DC2C580AB6A3EC2648F8274636B02 /* Pods-TouchableSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouchableSlider_Example.modulemap"; sourceTree = "<group>"; };
+		1B30EF4D1A91EFE75004A9725A2BCC72 /* Pods-TouchableSlider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchableSlider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3583CB2E045FEBE3B68023259868F46C /* TouchableSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TouchableSlider.m; sourceTree = "<group>"; };
+		36B49A2A350D34C8D86995FE76F75AC4 /* Pods-TouchableSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchableSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D4F0F4692B82BEB7AFA3654511B8475 /* Pods-TouchableSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchableSlider_Tests-dummy.m"; sourceTree = "<group>"; };
+		3FF4E52A7E8ED7E17EC1D0A2668F4A13 /* TouchableSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TouchableSlider.modulemap; sourceTree = "<group>"; };
+		4326F039614A4DC6A2F94017DBB74871 /* Pods-TouchableSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchableSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		489F3ED104C1CFADB4AE09AA5AF07F48 /* Pods-TouchableSlider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchableSlider_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4C81CC8BAA19D41E9C7FA58D6AFDD0F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F59A5E73786CB72AB7F3D1789F82718 /* Pods-TouchableSlider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchableSlider_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5482D09168B710C40A817446CA0BF321 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581939D2CD7C18AD106CACB71960502A /* TouchableSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TouchableSlider.h; sourceTree = "<group>"; };
+		5A21ACF651CD0925183B52F31F243A12 /* Pods-TouchableSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchableSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C0EFD25C4E4F12156EBE4838C2DA706 /* Pods_TouchableSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouchableSlider_Tests.framework; path = "Pods-TouchableSlider_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77F051168459EEC93DC6B8B5AE511C /* Pods-TouchableSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchableSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
+		715D0886197739168178B9230CB54D77 /* Pods-TouchableSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchableSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76116FC95B43A2BC69424EBC9A2AC363 /* Pods-TouchableSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchableSlider_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A0A5286F3DE4979DD6AB36D1E0E9A79 /* Pods-TouchableSlider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TouchableSlider_Tests.modulemap"; sourceTree = "<group>"; };
+		A49A1906B7936207E7AEC79C0C73973A /* Pods-TouchableSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchableSlider_Example-dummy.m"; sourceTree = "<group>"; };
+		A9E14521B79E206C4DB86057505807A7 /* Pods-TouchableSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchableSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4430749B44EFDA8B340E4AA424CC92 /* Pods-TouchableSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchableSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D34B0199B200CD8A9822C65BD44F883D /* TouchableSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchableSlider-umbrella.h"; sourceTree = "<group>"; };
+		D5B44B8E8B9A69A8A7A7E4C05367792D /* Pods-TouchableSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchableSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DD57275BE05A73DC49C15B48BE75CA7F /* Pods-TouchableSlider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchableSlider_Example-resources.sh"; sourceTree = "<group>"; };
+		E345EC3D4A40BC27F60C342DC69F012A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F022A5A4CEDEC99DB458B2237E9854C0 /* TouchableSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchableSlider-dummy.m"; sourceTree = "<group>"; };
+		F0DEF4E45BA33A46581EF9A8A66B09AE /* TouchableSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchableSlider-prefix.pch"; sourceTree = "<group>"; };
+		F99A9BD2549EA9960ECFA90EBFA511A0 /* Pods_TouchableSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TouchableSlider_Example.framework; path = "Pods-TouchableSlider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE811FCDFBBBFE2E31A18F9976BCBFDF /* TouchableSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchableSlider.xcconfig; sourceTree = "<group>"; };
+		FEEE35E46751297E9B1F6F2C33D1C9F3 /* Pods-TouchableSlider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchableSlider_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696B8D1A616ECE42235D73568CE3FED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274F2F9F61194E67D4DC04F46E4548A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEF728A8721CEDAE0B9BBD1F2AB562B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7FEE048F8E57F40C6E0763693E4479 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE987438E1297E1C8AEB701AF3B44CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66C2AF0D8105547945C9414F49B0B67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AEB97A288BBFEF2F91A386FC66BF9EC /* Pods-TouchableSlider_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E345EC3D4A40BC27F60C342DC69F012A /* Info.plist */,
+				0D5DC2C580AB6A3EC2648F8274636B02 /* Pods-TouchableSlider_Example.modulemap */,
+				715D0886197739168178B9230CB54D77 /* Pods-TouchableSlider_Example-acknowledgements.markdown */,
+				BD4430749B44EFDA8B340E4AA424CC92 /* Pods-TouchableSlider_Example-acknowledgements.plist */,
+				A49A1906B7936207E7AEC79C0C73973A /* Pods-TouchableSlider_Example-dummy.m */,
+				6D77F051168459EEC93DC6B8B5AE511C /* Pods-TouchableSlider_Example-frameworks.sh */,
+				DD57275BE05A73DC49C15B48BE75CA7F /* Pods-TouchableSlider_Example-resources.sh */,
+				76116FC95B43A2BC69424EBC9A2AC363 /* Pods-TouchableSlider_Example-umbrella.h */,
+				4326F039614A4DC6A2F94017DBB74871 /* Pods-TouchableSlider_Example.debug.xcconfig */,
+				36B49A2A350D34C8D86995FE76F75AC4 /* Pods-TouchableSlider_Example.release.xcconfig */,
+			);
+			name = "Pods-TouchableSlider_Example";
+			path = "Target Support Files/Pods-TouchableSlider_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B3CADC8D2D04C2C11915C9B05A877A1C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E83D4074984C1102E10F0F0A8E1C8D14 /* Products */,
+				B0121644138623240B6CCA66D977C1BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6A6CED3B6CB43FB91ADCCC2443CA49 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C81CC8BAA19D41E9C7FA58D6AFDD0F0 /* Info.plist */,
+				3FF4E52A7E8ED7E17EC1D0A2668F4A13 /* TouchableSlider.modulemap */,
+				FE811FCDFBBBFE2E31A18F9976BCBFDF /* TouchableSlider.xcconfig */,
+				F022A5A4CEDEC99DB458B2237E9854C0 /* TouchableSlider-dummy.m */,
+				F0DEF4E45BA33A46581EF9A8A66B09AE /* TouchableSlider-prefix.pch */,
+				D34B0199B200CD8A9822C65BD44F883D /* TouchableSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TouchableSlider";
+			sourceTree = "<group>";
+		};
+		9C79C239E1F3239637583E541A0C2AAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				581939D2CD7C18AD106CACB71960502A /* TouchableSlider.h */,
+				3583CB2E045FEBE3B68023259868F46C /* TouchableSlider.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0121644138623240B6CCA66D977C1BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AEB97A288BBFEF2F91A386FC66BF9EC /* Pods-TouchableSlider_Example */,
+				CDE6AE7F373AAFE4EE96D1456ECFE93A /* Pods-TouchableSlider_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3CADC8D2D04C2C11915C9B05A877A1C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD399D1405CAF33A4BADEA73BE9E4BBB /* TouchableSlider */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD399D1405CAF33A4BADEA73BE9E4BBB /* TouchableSlider */ = {
+			isa = PBXGroup;
+			children = (
+				8C6A6CED3B6CB43FB91ADCCC2443CA49 /* Support Files */,
+				F4973886ECBC0204B7C890CF9F30CB5B /* TouchableSlider */,
+			);
+			name = TouchableSlider;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CDE6AE7F373AAFE4EE96D1456ECFE93A /* Pods-TouchableSlider_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5482D09168B710C40A817446CA0BF321 /* Info.plist */,
+				9A0A5286F3DE4979DD6AB36D1E0E9A79 /* Pods-TouchableSlider_Tests.modulemap */,
+				1B30EF4D1A91EFE75004A9725A2BCC72 /* Pods-TouchableSlider_Tests-acknowledgements.markdown */,
+				5A21ACF651CD0925183B52F31F243A12 /* Pods-TouchableSlider_Tests-acknowledgements.plist */,
+				3D4F0F4692B82BEB7AFA3654511B8475 /* Pods-TouchableSlider_Tests-dummy.m */,
+				489F3ED104C1CFADB4AE09AA5AF07F48 /* Pods-TouchableSlider_Tests-frameworks.sh */,
+				FEEE35E46751297E9B1F6F2C33D1C9F3 /* Pods-TouchableSlider_Tests-resources.sh */,
+				4F59A5E73786CB72AB7F3D1789F82718 /* Pods-TouchableSlider_Tests-umbrella.h */,
+				A9E14521B79E206C4DB86057505807A7 /* Pods-TouchableSlider_Tests.debug.xcconfig */,
+				D5B44B8E8B9A69A8A7A7E4C05367792D /* Pods-TouchableSlider_Tests.release.xcconfig */,
+			);
+			name = "Pods-TouchableSlider_Tests";
+			path = "Target Support Files/Pods-TouchableSlider_Tests";
+			sourceTree = "<group>";
+		};
+		E83D4074984C1102E10F0F0A8E1C8D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99A9BD2549EA9960ECFA90EBFA511A0 /* Pods_TouchableSlider_Example.framework */,
+				5C0EFD25C4E4F12156EBE4838C2DA706 /* Pods_TouchableSlider_Tests.framework */,
+				07B1E7463A5DCEA1F9F53A598AF060D3 /* TouchableSlider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4973886ECBC0204B7C890CF9F30CB5B /* TouchableSlider */ = {
+			isa = PBXGroup;
+			children = (
+				9C79C239E1F3239637583E541A0C2AAC /* Classes */,
+			);
+			name = TouchableSlider;
+			path = TouchableSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26B12E5614F428B9DCED02D7C5421D50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0087E911AFFB65F8F14FDD257C82361 /* Pods-TouchableSlider_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C7BE1ECC229A77C7A870FFA9314C990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029AA66F3E3B648CCAD52EE237047BB1 /* TouchableSlider-umbrella.h in Headers */,
+				83637919D6C7F6936287A1013D32239D /* TouchableSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48F0B3250B51A567D1A1C8BDE4F55DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E202692CA4A9E50FEE597066B3A805 /* Pods-TouchableSlider_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		702D031BBD27FF148436E2ED6D89E5C4 /* Pods-TouchableSlider_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B8A71DB2A98A4FD1D74D56126235876 /* Build configuration list for PBXNativeTarget "Pods-TouchableSlider_Example" */;
+			buildPhases = (
+				E2A37F4A231500DA5F210B0FEBF678B2 /* Sources */,
+				ADEF728A8721CEDAE0B9BBD1F2AB562B /* Frameworks */,
+				A48F0B3250B51A567D1A1C8BDE4F55DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30CC3BFA6A1C187CE1897370E799AA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchableSlider_Example";
+			productName = "Pods-TouchableSlider_Example";
+			productReference = F99A9BD2549EA9960ECFA90EBFA511A0 /* Pods_TouchableSlider_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72DD8573A23C5CD131FF9513FBCC64FB /* TouchableSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FB6B2FAE6499D0E33754033206BD1C /* Build configuration list for PBXNativeTarget "TouchableSlider" */;
+			buildPhases = (
+				2CF4F3B49F54C13C72C56EABE51C99E3 /* Sources */,
+				696B8D1A616ECE42235D73568CE3FED8 /* Frameworks */,
+				5C7BE1ECC229A77C7A870FFA9314C990 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchableSlider;
+			productName = TouchableSlider;
+			productReference = 07B1E7463A5DCEA1F9F53A598AF060D3 /* TouchableSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8310C145237EE4206DE2F4D7F66D2380 /* Pods-TouchableSlider_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351D0D89BE64280D6510FCBD730DEAB1 /* Build configuration list for PBXNativeTarget "Pods-TouchableSlider_Tests" */;
+			buildPhases = (
+				A3481C21429BA061C905E49474EA1BA7 /* Sources */,
+				CFE987438E1297E1C8AEB701AF3B44CA /* Frameworks */,
+				26B12E5614F428B9DCED02D7C5421D50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchableSlider_Tests";
+			productName = "Pods-TouchableSlider_Tests";
+			productReference = 5C0EFD25C4E4F12156EBE4838C2DA706 /* Pods_TouchableSlider_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E83D4074984C1102E10F0F0A8E1C8D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702D031BBD27FF148436E2ED6D89E5C4 /* Pods-TouchableSlider_Example */,
+				8310C145237EE4206DE2F4D7F66D2380 /* Pods-TouchableSlider_Tests */,
+				72DD8573A23C5CD131FF9513FBCC64FB /* TouchableSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF4F3B49F54C13C72C56EABE51C99E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801CE14C48B18CAE83828659C4F3528 /* TouchableSlider-dummy.m in Sources */,
+				17BF95ECAF7B64F2FA98099532842892 /* TouchableSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3481C21429BA061C905E49474EA1BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D190FD8D1A57445369623ED91B8EFE79 /* Pods-TouchableSlider_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A37F4A231500DA5F210B0FEBF678B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CBD5A5C76B6CF3947EA43662A404E5 /* Pods-TouchableSlider_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30CC3BFA6A1C187CE1897370E799AA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchableSlider;
+			target = 72DD8573A23C5CD131FF9513FBCC64FB /* TouchableSlider */;
+			targetProxy = 86D2627E4A433A71D6A1B096BAEB5DE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77378F4BF1278894587AD1CE1A13894A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4326F039614A4DC6A2F94017DBB74871 /* Pods-TouchableSlider_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchableSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchableSlider_Example/Pods-TouchableSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TouchableSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CAE0AADD07002051109D657A2017444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B44B8E8B9A69A8A7A7E4C05367792D /* Pods-TouchableSlider_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchableSlider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchableSlider_Tests/Pods-TouchableSlider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TouchableSlider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		816732F2456FB3ACB65200E459F8875A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE811FCDFBBBFE2E31A18F9976BCBFDF /* TouchableSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchableSlider/TouchableSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchableSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchableSlider/TouchableSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TouchableSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AB7FF405CEC1C16E64D5A84497ADC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B49A2A350D34C8D86995FE76F75AC4 /* Pods-TouchableSlider_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchableSlider_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchableSlider_Example/Pods-TouchableSlider_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TouchableSlider_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F37BB399EB8035FC3010DFDF004329B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E14521B79E206C4DB86057505807A7 /* Pods-TouchableSlider_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TouchableSlider_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TouchableSlider_Tests/Pods-TouchableSlider_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TouchableSlider_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB447C6657CBC58B2CD5D89464535D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE811FCDFBBBFE2E31A18F9976BCBFDF /* TouchableSlider.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchableSlider/TouchableSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchableSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchableSlider/TouchableSlider.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TouchableSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B8A71DB2A98A4FD1D74D56126235876 /* Build configuration list for PBXNativeTarget "Pods-TouchableSlider_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77378F4BF1278894587AD1CE1A13894A /* Debug */,
+				8AB7FF405CEC1C16E64D5A84497ADC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FB6B2FAE6499D0E33754033206BD1C /* Build configuration list for PBXNativeTarget "TouchableSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816732F2456FB3ACB65200E459F8875A /* Debug */,
+				CB447C6657CBC58B2CD5D89464535D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351D0D89BE64280D6510FCBD730DEAB1 /* Build configuration list for PBXNativeTarget "Pods-TouchableSlider_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F37BB399EB8035FC3010DFDF004329B /* Debug */,
+				7CAE0AADD07002051109D657A2017444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
